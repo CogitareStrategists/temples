@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Temple gopuram at dusk">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3b21b"/>
+      <stop offset="42%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#8c1d18"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#fff3d6" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#ffd98a" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffd98a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5b130f"/>
+      <stop offset="100%" stop-color="#3a0c08"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="700" fill="url(#sky)"/>
+  <circle cx="800" cy="300" r="430" fill="url(#halo)"/>
+
+  <!-- distant side shrines -->
+  <g fill="#6e1812" opacity="0.55">
+    <path d="M180 700 L180 470 Q260 420 340 470 L340 700 Z"/>
+    <path d="M255 470 L235 430 L285 430 Z"/>
+    <path d="M1260 700 L1260 470 Q1340 420 1420 470 L1420 700 Z"/>
+    <path d="M1335 470 L1315 430 L1365 430 Z"/>
+  </g>
+
+  <!-- main gopuram (stepped tiers, narrowing upward) -->
+  <g fill="url(#stone)">
+    <!-- base -->
+    <rect x="610" y="600" width="380" height="100"/>
+    <rect x="630" y="560" width="340" height="48"/>
+    <!-- tiers -->
+    <polygon points="650,560 950,560 928,500 672,500"/>
+    <polygon points="672,500 928,500 910,448 690,448"/>
+    <polygon points="690,448 910,448 894,402 706,402"/>
+    <polygon points="706,402 894,402 880,360 720,360"/>
+    <polygon points="720,360 880,360 866,322 734,322"/>
+    <polygon points="734,322 866,322 852,286 748,286"/>
+    <polygon points="748,286 852,286 840,252 760,252"/>
+    <!-- crown (shikhara) -->
+    <path d="M760 252 Q800 150 840 252 Z"/>
+    <!-- kalasha finials -->
+    <circle cx="800" cy="150" r="14"/>
+    <rect x="795" y="120" width="10" height="26"/>
+  </g>
+
+  <!-- tier ridges for a bit of detail -->
+  <g stroke="#2b0805" stroke-width="3" opacity="0.5">
+    <line x1="650" y1="560" x2="950" y2="560"/>
+    <line x1="672" y1="500" x2="928" y2="500"/>
+    <line x1="690" y1="448" x2="910" y2="448"/>
+    <line x1="706" y1="402" x2="894" y2="402"/>
+    <line x1="720" y1="360" x2="880" y2="360"/>
+  </g>
+
+  <!-- doorway -->
+  <path d="M770 600 L770 520 Q800 488 830 520 L830 600 Z" fill="#2b0805"/>
+
+  <!-- ground -->
+  <rect x="0" y="690" width="1600" height="10" fill="#2b0805"/>
+</svg>
